@@ -2,11 +2,10 @@ let main = $('main');
 
 
 const displayUsers = (users) => {
-    console.log(users);
+    //console.log(users);
     users.forEach(users => {
-        main.append("<div class='" + `${users.gender}` + " user'><div><img class='avatar' src=" + `${users.picture}` + "></div><div><p>" + `${users.name.first} ${users.name.last}` + "</p><p>" + `${users.email}` + "</p><p>" + `${users.dobDate}` + "</p></div></div>");
+        main.append("<div class='" + `${users.gender}` + " user'><div><img class='avatar' src=" + `${users.picture}` + "></div><div><p>" + `${users.name} ` + "</p><p>" + `${users.email}` + "</p><p>" + `${users.dobDate}` + "</p></div></div>");
     });
-    console.log(users[1].upperName());
 }
 
 export { displayUsers }

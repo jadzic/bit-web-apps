@@ -17,7 +17,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items:center;
-    padding: 0 1%;
+    padding: 0 12%;
     margin-bottom: 2%;
 }
 
@@ -25,18 +25,18 @@ header a {
     color: white;
     text-decoration: none;
     font-size: 1.3em;
-
 }
-
 footer {
     background-color: brown;
     color: white;
     text-align: center;
-    padding: 1%;
+    padding: 0.5%;
+    margin-top: 1%;
 }
 
 .avatar {
     border-radius: 50%;
+    /* border: lightcoral 1px solid; */
 }
 
 .user{
@@ -48,10 +48,6 @@ footer {
 
 .female {
     background-color: pink;
-}
-
-footer{
-    margin-top: 2%;
 }
 
 main {
@@ -77,4 +73,8 @@ main {
 
 .user div p {
     margin: 3%;
+}
+
+.user div :first-child {
+    font-weight: bold;
 }
