@@ -1,0 +1,43 @@
+* {box-sizing: border-box}
+
+#root {
+  width: 80%;
+  margin: 0 auto;
+  
+}
+
+
+header {
+  text-align: center;
+  background-color: #ef88a2;
+  color: white;
+  padding: 1px;
+  margin-bottom: 10px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+}
+
+ul li {
+  background-color: #566b7a;
+  color: white;
+  list-style-type: none;
+  font-family: 'Raleway', sans-serif;
+  padding: 1px 0 1px 10px;
+  margin-bottom: 1%;
+}
+
+ul li h3 {
+  font-size: 1em;
+  margin: 1%;
+}
+
+ul li p {
+  font-size: 0.8em;
+  margin: 1%;
+}
+
+ul {
+  width: 80%;
+  padding: 0;
+  margin-left: 10%;  
+}
